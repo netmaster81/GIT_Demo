@@ -21,4 +21,7 @@ git branch // show branches
 git branch testing // create a new branch 
 git checkout -b newbranch // create and checkout to the new branch
 git checkout testing // move to the branch
-git
+ git push -u origin testing // push the new branch to online account 
+
+
+ git pull Lexicon
