@@ -24,4 +24,4 @@ git checkout testing // move to the branch
  git push -u origin testing // push the new branch to online account 
 
 
- git pull Lexicon
+ git pull // retrive changes from remote
