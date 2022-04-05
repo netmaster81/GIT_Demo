@@ -1,0 +1,4 @@
+git init // create local repository
+git status // on which branch you are now 
+
+git add . // add all file to stage area 
