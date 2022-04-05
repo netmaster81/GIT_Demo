@@ -2,3 +2,23 @@ git init // create local repository
 git status // on which branch you are now 
 
 git add . // add all file to stage area 
+
+
+echo "# GIT_Demo" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/netmaster81/GIT_Demo.git
+git push -u origin main
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/netmaster81/GIT_Demo.git
+git branch -M main
+git push -u origin main
+
+git branch // show branches
+git branch testing // create a new branch 
+git checkout -b newbranch // create and checkout to the new branch
+git checkout testing // move to the branch
+git
